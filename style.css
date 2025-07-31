@@ -1,0 +1,88 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('assets/images/wood-texture.png') repeat;
+  color: white;
+  text-align: center;
+}
+
+header {
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.logo-header {
+  width: 280px;
+}
+
+.tagline {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+
+.mascot {
+  width: 160px;
+  margin-top: 1rem;
+}
+
+main {
+  padding: 2rem 1rem;
+}
+
+.narrative {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1.1rem;
+  background: rgba(0,0,0,0.5);
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.poem {
+  max-width: 700px;
+  margin: 3rem auto;
+}
+
+.comic-box {
+  border: 5px dashed yellow;
+  background: rgba(0,0,0,0.6);
+  padding: 1rem;
+  border-radius: 10px;
+  font-style: italic;
+}
+
+.memes img {
+  width: 300px;
+  margin: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 12px black;
+}
+
+.button-wrapper {
+  margin: 2rem;
+}
+
+.tokenomics-button {
+  background: yellow;
+  color: black;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.tokenomics {
+  padding: 2rem;
+}
+.tokenomics img {
+  width: 300px;
+  margin-bottom: 1rem;
+}
+.tokenomics ul {
+  list-style: none;
+  padding: 0;
+}
+.tokenomics li {
+  margin-bottom: 0.5rem;
+}
