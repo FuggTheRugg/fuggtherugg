@@ -86,3 +86,19 @@ main {
 .tokenomics li {
   margin-bottom: 0.5rem;
 }
+.footer {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.footer a {
+  color: #00bcd4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
