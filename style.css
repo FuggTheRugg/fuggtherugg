@@ -133,4 +133,22 @@ main {
     border-color: rgba(255, 255, 255, 0.3);
   }
 }
+.chart-container {
+  text-align: center;
+  padding: 2rem;
+  color: #fff;
+}
 
+.tokenomics-chart {
+  width: 60%;
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto 1.5rem;
+  display: block;
+}
+
+.supply-info {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
