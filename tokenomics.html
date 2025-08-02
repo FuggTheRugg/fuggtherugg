@@ -2,17 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tokenomics - Fugg the Rugg</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" type="image/png" href="assets/images/fugg-mascot.png" />
+  
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Your custom chart script -->
+  <script src="tokenomics-chart.js" defer></script>
 </head>
-  <!-- Load Chart.js from CDN -->
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-<!-- Load your custom pie chart config -->
-<script src="tokenomics-chart.js" defer></script>
-</head>
 <body>
   <header>
     <h1>Tokenomics & Distribution</h1>
@@ -23,19 +23,20 @@
       <canvas id="tokenomicsChart" width="400" height="400"></canvas>
     </div>
 
-  <div class="supply-info">
-    <p>Total Supply: <strong>1,000,000,000</strong></p>
-    <p>
-      90% Public<br>
-      6% Family<br>
-      2% Developer<br>
-      1% Marketing and Promotion<br>
-      1% Community
-    </p>
-  </div>
+    <div class="supply-info">
+      <p>Total Supply: <strong>1,000,000,000</strong></p>
+      <p>
+        90% Public<br>
+        6% Family<br>
+        2% Developer<br>
+        1% Marketing and Promotion<br>
+        1% Community
+      </p>
+    </div>
 
-  <div class="back-home-button">
-    <a href="index.html">🏡 Back to Home</a>
-  </div>
-</section>
+    <div class="back-home-button">
+      <a href="index.html">🏡 Back to Home</a>
+    </div>
+  </section>
+</body>
 </html>
