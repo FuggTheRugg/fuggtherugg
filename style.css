@@ -169,3 +169,12 @@ main {
   line-height: 1.6;
   margin-bottom: 2rem;
 }
+.chart-wrapper {
+  max-width: 300px;
+  margin: 0 auto 20px auto;
+}
+
+#tokenomicsChart {
+  width: 100% !important;
+  height: auto !important;
+}
