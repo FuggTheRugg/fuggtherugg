@@ -10,11 +10,18 @@
   <!-- Load Chart.js from CDN -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-<!-- Load your custom chart logic -->
-<script src="tokenomics-chart.js"></script>
+<!-- Load your custom pie chart config -->
+<script src="tokenomics-chart.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Tokenomics & Distribution</h1>
+  </header>
 
-<canvas id="tokenomicsChart" width="400" height="400"></canvas>
-
+  <section class="tokenomics">
+    <div class="chart-container">
+      <canvas id="tokenomicsChart" width="400" height="400"></canvas>
+    </div>
 
   <div class="supply-info">
     <p>Total Supply: <strong>1,000,000,000</strong></p>
