@@ -31,12 +31,13 @@ main {
 }
 
 .narrative {
-  max-width: 700px;
-  margin: auto;
+  color: white;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
   font-size: 1.1rem;
-  background: rgba(0,0,0,0.5);
-  padding: 1rem;
-  border-radius: 12px;
+  line-height: 1.6;
 }
 
 .poem {
