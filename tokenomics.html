@@ -2,25 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Tokenomics - Fugg the Rugg</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" type="image/png" href="assets/images/fugg-mascot.png" />
-  
-  <!-- Chart.js CDN -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <!-- Your custom chart script -->
   <script src="tokenomics-chart.js" defer></script>
 </head>
-
 <body>
   <header>
     <h1>Tokenomics & Distribution</h1>
   </header>
-
   <section class="tokenomics">
-    <div class="chart-container">
-      <canvas id="tokenomicsChart" width="400" height="400"></canvas>
+    <div class="chart-wrapper">
+      <canvas id="tokenomicsChart"></canvas>
     </div>
 
     <div class="supply-info">
@@ -35,7 +30,7 @@
     </div>
 
     <div class="back-home-button">
-      <a href="index.html">🏡 Back to Home</a>
+      <a href="index.html">🏠 Back to Home</a>
     </div>
   </section>
 </body>
