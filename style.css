@@ -178,3 +178,11 @@ main {
   width: 100% !important;
   height: auto !important;
 }
+.coming-soon {
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
