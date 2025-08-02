@@ -102,3 +102,54 @@ main {
 .footer a:hover {
   text-decoration: underline;
 }
+.chart-placeholder {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
+.chart-placeholder h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ffdd57;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.chart-box {
+  margin: 0 auto;
+  max-width: 600px;
+  height: 300px;
+  border: 2px dashed #666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: repeating-linear-gradient(
+    45deg,
+    #333,
+    #333 10px,
+    #444 10px,
+    #444 20px
+  );
+  border-radius: 8px;
+  animation: pulse 2s infinite ease-in-out;
+}
+
+.coming-soon {
+  font-size: 1.2rem;
+  color: #ccc;
+  font-style: italic;
+}
+
+/* Animation */
+@keyframes pulse {
+  0% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.7;
+  }
+}
