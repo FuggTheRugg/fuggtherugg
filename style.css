@@ -1,7 +1,13 @@
+@font-face {
+  font-family: 'Kristen ITC';
+  src: url('assets/fonts/ITCKRIST.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   margin: 0;
-  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-family: 'Kristen ITC', 'Comic Sans MS', cursive, sans-serif;
   color: white;
   background-image: url('assets/images/wood-texture-background.png');
   background-size: cover;
