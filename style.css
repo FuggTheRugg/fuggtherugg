@@ -3,8 +3,9 @@ body {
   margin: 0;
   font-family: 'Comic Sans MS', cursive, sans-serif;
   color: white;
-  background-image: url('assets/images/wood-bg.png');
+  background-image: url('assets/images/wood-texture-background.png');
   background-size: cover;
+  background-repeat: repeat;
   background-attachment: fixed;
 }
 
