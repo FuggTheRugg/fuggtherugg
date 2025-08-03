@@ -2,121 +2,158 @@
 body {
   margin: 0;
   font-family: 'Comic Sans MS', cursive, sans-serif;
-  background-color: #000;
   color: white;
-  text-align: center;
-}
-body {
-  background-image: url('assets/images/wood-texture-background.png');
+  background-image: url('assets/images/wood-bg.png');
   background-size: cover;
-  background-repeat: repeat;
   background-attachment: fixed;
-  color: white;
 }
 
-header {
-  background-image: url('assets/images/wood-texture.jpg');
-  background-size: cover;
-  background-position: center;
-  padding: 2rem;
+.header {
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  padding: 1em;
 }
 
 .logo-header {
-  width: 300px;
-  margin-bottom: 0.5rem;
+  width: 260px;
+  height: auto;
+  margin-bottom: 0.5em;
 }
 
 .tagline {
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 1.5em;
+  margin: 0.5em 0;
 }
 
 .mascot {
-  width: 150px;
-  margin: 1rem 0;
+  width: 160px;
+  margin: 0.5em 0;
 }
 
-.coming-soon {
-  font-size: 1.2rem;
-  color: white;
-  margin: 0.5rem 0 1.5rem 0;
+.subtext {
+  margin-top: 0.5em;
+  font-size: 1.1em;
 }
 
-.tokenomics-button a {
-  display: inline-block;
-  background-color: #ffcc00;
+.tokenomics-button a,
+.back-home-button a {
+  background-color: #FFD700;
+  padding: 0.6em 1.2em;
   color: black;
   font-weight: bold;
-  padding: 0.6rem 1.5rem;
-  border-radius: 8px;
   text-decoration: none;
-  border: 2px solid #000;
-  box-shadow: 2px 2px #000;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.tokenomics-button,
+.back-home-button {
+  text-align: center;
+  margin: 1em 0;
 }
 
 main {
-  padding: 2rem;
-}
-
-.narrative-box {
-  background-image: url('assets/images/wood-panel-bg.jpg');
-  background-size: cover;
-  background-position: center;
-  padding: 1.5rem;
-  border: 3px dashed yellow;
-  border-radius: 10px;
-  margin: 1.5rem auto;
-  max-width: 600px;
-  text-align: left;
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
 }
 
 .poem .comic-box {
-  background-image: url('assets/images/wood-panel-bg.jpg');
-  background-size: cover;
-  background-position: center;
-  padding: 1.5rem;
   border: 3px dashed yellow;
-  border-radius: 10px;
-  margin: 1.5rem auto;
-  max-width: 600px;
+  padding: 1.5em;
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 12px;
+  margin-bottom: 2em;
+  text-align: center;
 }
 
 .poem h3 {
   margin-top: 0;
-  font-size: 1.4rem;
-  font-weight: bold;
 }
 
-footer {
-  background-color: #111;
-  padding: 1rem;
-  font-size: 0.9rem;
+.narrative {
+  background-color: rgba(0,0,0,0.6);
+  padding: 1.5em;
+  border-radius: 12px;
 }
 
-footer a {
-  color: #ffcc00;
+.narrative p {
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+.memes {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.memes img {
+  max-width: 100%;
+  height: auto;
+  margin: 0.5em;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1em;
+  text-align: center;
+}
+
+.footer a {
+  color: yellow;
   text-decoration: none;
   font-weight: bold;
 }
 
 .chart-placeholder {
-  background-image: url('assets/images/wood-panel-bg.jpg');
-  background-size: cover;
-  background-position: center;
-  padding: 2rem 1rem;
   text-align: center;
+  margin: 3em auto;
 }
 
 .chart-box {
-  margin-top: 1rem;
+  border: 3px dashed yellow;
+  display: inline-block;
+  padding: 2em;
+  border-radius: 12px;
+  margin-top: 1em;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.coming-soon {
   font-style: italic;
+  color: white;
+  font-size: 1.1em;
 }
 
-.memes img {
-  width: 300px;
-  margin: 1rem;
+.bounce {
+  animation: bounce 2s infinite;
 }
 
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.tokenomics .chart-wrapper {
+  text-align: center;
+  margin-top: 2em;
+}
+
+#tokenomicsChart {
+  width: 250px !important;
+  height: 250px !important;
+}
+
+.supply-info {
+  text-align: center;
+  font-size: 1.1em;
+  margin-top: 1em;
+}
 .chart-wrapper canvas {
   width: 400px;
   height: 400px;
