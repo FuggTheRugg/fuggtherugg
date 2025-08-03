@@ -6,6 +6,13 @@ body {
   color: white;
   text-align: center;
 }
+body {
+  background-image: url('assets/images/wood-texture-background.png');
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  color: white;
+}
 
 header {
   background-image: url('assets/images/wood-texture.jpg');
