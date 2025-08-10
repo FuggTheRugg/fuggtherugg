@@ -304,3 +304,27 @@ ul.supply-list, ol.supply-list {
   margin-left: 0 !important;
 }
 .tokenomics .supply-box li::marker { content: "" !important; }
+}
+
+.tokenomics .supply-box {
+  max-width: 900px;          
+  margin: 0 auto;            
+  padding: 24px 28px;
+  background: rgba(0,0,0,0.22); 
+  border-radius: 12px;
+}
+
+.tokenomics .supply-box h2,
+.tokenomics .supply-box .total,
+.tokenomics .supply-box .note {
+  text-align: center;
+}
+
+.tokenomics .supply-box ul.supply-list {
+  margin: 18px 0 10px;
+  padding-left: 0;                 
+}
+
+.tokenomics .supply-box li {
+  margin: 10px 0;
+}
