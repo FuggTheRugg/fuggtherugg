@@ -64,21 +64,31 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 14px;
   margin-top: 12px;
 }
 
 .cta-btn {
   position: relative;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
   padding: 12px 20px;
-  border-radius: 10px;
-  font-weight: bold;
+  border-radius: 12px;
+  font-weight: 700;
   text-decoration: none;
   color: #000;
-  background-color: #ffd100;              
+  background-color: #ffd100;                 
   box-shadow: 0 6px 0 #b48000, 0 10px 16px rgba(0,0,0,.25);
   transition: transform .1s ease, background-color .15s ease, box-shadow .1s ease;
+}
+
+.button-row .cta-btn:link,
+.button-row .cta-btn:visited {
+  color: #000;
+  text-decoration: none;
 }
 
 .cta-btn:hover {
@@ -86,12 +96,10 @@ body {
   background-color: #ffe066;
 }
 
-.cta-tokenomics {}
-
 .cta-whitepaper.soon:hover {
-  background-color: #9aa0a6;              
+  background-color: #9aa0a6;
   box-shadow: 0 6px 0 #6f767d, 0 10px 16px rgba(0,0,0,.25);
-  color: transparent;                      
+  color: transparent;          
   cursor: not-allowed;
 }
 
@@ -103,7 +111,7 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
   white-space: nowrap;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 @media (max-width: 560px) {
