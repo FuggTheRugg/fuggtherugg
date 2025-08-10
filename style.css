@@ -281,3 +281,13 @@ main {
   .info-card { padding: 1rem 1rem; }
   .info-card h3 { font-size: 1.25rem; }
 }
+.tokenomics .supply-box ul,
+.tokenomics .supply-list {
+  list-style: none;      
+  padding-left: 0;       
+  margin-left: 0;
+}
+
+.tokenomics .supply-box ul li::marker {
+  content: "";
+}
