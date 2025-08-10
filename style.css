@@ -229,6 +229,17 @@ main {
   font-size: 1.1em;
   margin-top: 1em;
 }
+.tokenomics .supply-box ul,
+.tokenomics .supply-list {
+  list-style: none;      
+  padding-left: 0;       
+  margin-left: 0;
+}
+
+.tokenomics .supply-box ul li::marker {
+  content: "";
+}
+
 .chart-wrapper canvas {
   width: 400px;
   height: 400px;
@@ -280,14 +291,4 @@ main {
 @media (max-width: 640px) {
   .info-card { padding: 1rem 1rem; }
   .info-card h3 { font-size: 1.25rem; }
-}
-.tokenomics .supply-box ul,
-.tokenomics .supply-list {
-  list-style: none;      
-  padding-left: 0;       
-  margin-left: 0;
-}
-
-.tokenomics .supply-box ul li::marker {
-  content: "";
 }
