@@ -229,16 +229,19 @@ main {
   font-size: 1.1em;
   margin-top: 1em;
 }
+
 .tokenomics .supply-box ul,
-.tokenomics .supply-list {
+.tokenomics ul.supply-list {
   list-style: none;      
   padding-left: 0;       
   margin-left: 0;
 }
 
-.tokenomics .supply-box ul li::marker {
+.tokenomics .supply-box ul li::marker,
+.tokenomics ul.supply-list li::marker {
   content: "";
 }
+
 
 .chart-wrapper canvas {
   width: 400px;
